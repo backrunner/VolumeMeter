@@ -73,9 +73,8 @@ namespace VolumeMeter
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             // 调整窗体位置
-            var desktopWorkingArea = SystemParameters.WorkArea;
-            this.Left = desktopWorkingArea.Right - this.Width - 24;
-            this.Top = desktopWorkingArea.Bottom - this.Height - 24;
+            this.Left = SystemParameters.PrimaryScreenWidth - this.Width - 24;
+            this.Top = SystemParameters.PrimaryScreenHeight - this.Height - 72;
         }
     }
 }
