@@ -14,4 +14,6 @@ So I've written this program to present a similar experience.
 
 Download, compile, then run it!
 
+(I used some Nuget packages to simplify the development, so you need to install them first before compiling.)
+
 **IMPORTANT: The program will add itself to the registry to boot itself, which is the default, non-disable behavior.**
